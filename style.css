@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #111111;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.card{
+    width: 310px;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 400px;
+}
+
+.text{
+    font-weight: 100;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h4, .name{
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+}
+
+.avatar img{
+    height: 70px;
+    width: 70px;
+}
